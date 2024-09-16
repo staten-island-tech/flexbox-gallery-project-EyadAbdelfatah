@@ -7,20 +7,22 @@ body,html,*{
     background-color: black;
 }
 h1{
-    font-size: 30px;
+    font-size: 5vw;
     text-align: center;
 }
 .card{
     height:40rem;
     margin: 3rem auto;
     width: 26%;
-    border:2pc solid orange;
+    border:2rem solid orange;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-radius: 1rem;
+
+
 
 }
 .card-img{
