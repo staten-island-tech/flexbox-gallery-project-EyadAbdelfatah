@@ -21,9 +21,15 @@ h1{
     align-items: center;
     justify-content: space-around;
     border-radius: 1rem;
+    object-fit: cover;
 
 
 
+}
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+    }
 }
 .card-img{
     width: 100%;
@@ -46,5 +52,11 @@ h1{
 }
 h3,h2{
     font-size: 20px;
+}
+img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+
 }
 
