@@ -11,7 +11,7 @@ h1{
     text-align: center;
 }
 .card{
-    height:40rem;
+    height:auto;
     margin: 3rem auto;
     width: 26%;
     border:2rem solid orange;
@@ -21,19 +21,24 @@ h1{
     align-items: center;
     justify-content: space-around;
     border-radius: 1rem;
-    object-fit: cover;
+
 
 
 
 }
-@media(max-width:800px){
+
+
+
+
+@media(max-width:1500px){
     .container{
         flex-direction: column;
     }
 }
+
 .card-img{
     width: 100%;
-    height: 45%;
+    height: 100%;
     object-fit: cover;
 
 }
