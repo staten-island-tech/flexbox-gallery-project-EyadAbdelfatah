@@ -82,6 +82,12 @@ h1 {
 #OW:hover{
     transform: translateY(15px);
 }
+#WWH{
+    transition: transform 0.3s;
+}
+#WWH:hover{
+    transform: scale(0.9);
+}
 
 
 
